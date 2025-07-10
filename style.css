@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+body {
+  background: rgba(245, 248, 255, 0.7);
+}
 .Raleway-font {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -25,7 +28,8 @@ header {
 nav,
 .action-section,
 .productive-user-section,
-.user-review {
+.user-review,
+.get-in-touch {
   max-width: 1270px;
   margin: 0px auto;
 }
@@ -123,6 +127,7 @@ nav,
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   padding: 24px;
   border-radius: 14px;
+  background: white;
 }
 .card-shadow {
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
@@ -154,4 +159,48 @@ nav,
 .reviewer p {
   font-size: 16px;
   color: #b3b3b3;
+}
+/* Get in touch style */
+.get-in-touch {
+  display: flex;
+  gap: 115px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.get-in-touch > div {
+  width: 100%;
+}
+.get-in-touch-title {
+  font-size: 97px;
+  font-weight: bold;
+}
+.get-in-touch-form {
+  width: 100%;
+}
+.get-in-touch-form label,
+input {
+  display: block;
+}
+.get-in-touch-form input,
+textarea {
+  height: 70px;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+}
+.get-in-touch-form input::placeholder {
+  padding-left: 24px;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.get-in-touch-form textarea::placeholder {
+  padding-left: 24px;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.get-in-touch-form label {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
