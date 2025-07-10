@@ -15,10 +15,17 @@ body {
   padding: 12px 36px;
   background-color: #4e47ff;
   font-weight: bold;
-  border: none;
+  border: 1px solid #4e47ff;
   border-radius: 10px;
   color: #ffffff;
   cursor: pointer;
+}
+.btn:hover {
+  /* background-color: rgba(78, 71, 255, 0.4); */
+  background: transparent;
+  color: black;
+  border: 1px solid #4e47ff;
+  transition: 0.5s;
 }
 
 /* Main Style */
@@ -184,12 +191,18 @@ nav,
 input {
   display: block;
 }
-.get-in-touch-form input,
-textarea {
+.get-in-touch-form input {
   height: 70px;
   width: 100%;
   border-radius: 10px;
   border: none;
+}
+.get-in-touch-form textarea {
+  height: 150px;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 20px;
 }
 .get-in-touch-form input::placeholder {
   padding-left: 24px;
