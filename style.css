@@ -30,7 +30,8 @@ nav,
 .action-section,
 .productive-user-section,
 .user-review,
-.get-in-touch {
+.get-in-touch,
+.focus-section {
   max-width: 1270px;
   margin: 0px auto;
 }
@@ -204,6 +205,28 @@ textarea {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 10px;
+}
+/* Focus section Style */
+.focus-section {
+  text-align: center;
+  background: white;
+  padding: 70px 0px;
+  border-radius: 14px;
+  margin-bottom: 95px;
+}
+.focus-section h3 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.focus-section p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.focus-section button {
+  margin-bottom: 32px;
+}
+.focus-section img {
+  border-radius: 48px;
 }
 /* Footer Style */
 footer {
