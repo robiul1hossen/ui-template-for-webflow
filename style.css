@@ -18,6 +18,7 @@ body {
   border: none;
   border-radius: 10px;
   color: #ffffff;
+  cursor: pointer;
 }
 
 /* Main Style */
@@ -203,4 +204,38 @@ textarea {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 10px;
+}
+/* Footer Style */
+footer {
+  background: white;
+}
+.footer {
+  margin: 0 auto;
+  text-align: center;
+  width: 32%;
+  padding-top: 100px;
+}
+.footer h2 {
+  color: #4e47ff;
+  font-size: 100px;
+  font-weight: 900;
+}
+.footer p {
+  color: #8987a1;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.footer ul {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  margin-bottom: 100px;
+}
+.footer ul li {
+  list-style: none;
+}
+.footer ul li a {
+  text-decoration: none;
+
+  color: #8987a1;
 }
