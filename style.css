@@ -23,7 +23,8 @@ header {
   background: url("./Assets/Hero-bg.png");
 }
 nav,
-.action-section {
+.action-section,
+.productive-user-section {
   max-width: 1270px;
   margin: 0px auto;
 }
@@ -73,4 +74,32 @@ nav,
 }
 .action-section img {
   border-radius: 48px;
+}
+/* Productive User Style */
+.productive-user-section {
+  background: rgba(78, 71, 255, 0.1);
+  border-radius: 24px;
+}
+.productive-user {
+  padding: 50px 145px;
+}
+.productive-user-title {
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.statistics {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.statistics-items h2 {
+  font-size: 80px;
+  font-weight: bold;
+  color: #4e47ff;
+}
+.statistics-items p {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0) 0.5;
 }
