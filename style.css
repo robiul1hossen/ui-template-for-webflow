@@ -35,7 +35,6 @@ nav {
   color: #4e47ff;
   font-size: 34px;
   font-weight: 900;
-  margin-bottom: 37px;
 }
 .banner-section {
   padding: 155px 260px;
@@ -45,4 +44,6 @@ nav {
   font-size: 65px;
   font-weight: 900;
   color: #252432;
+  width: 80%;
+  margin: 0px auto 37px auto;
 }
