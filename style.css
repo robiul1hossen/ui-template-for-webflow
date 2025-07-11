@@ -51,6 +51,7 @@ nav,
   color: #4e47ff;
   font-size: 34px;
   font-weight: 900;
+  font-family: "Inter", sans-serif;
 }
 .banner-section {
   padding: 155px 260px;
@@ -112,6 +113,7 @@ nav,
   font-size: 80px;
   font-weight: bold;
   color: #4e47ff;
+  font-family: "Inter", sans-serif;
 }
 .statistics-items p {
   font-size: 20px;
@@ -186,6 +188,7 @@ nav,
 }
 .get-in-touch-form {
   width: 100%;
+  font-family: "Inter", sans-serif;
 }
 .get-in-touch-form label,
 input {
@@ -255,6 +258,7 @@ footer {
   color: #4e47ff;
   font-size: 100px;
   font-weight: 900;
+  font-family: "Inter", sans-serif;
 }
 .footer p {
   color: #8987a1;
