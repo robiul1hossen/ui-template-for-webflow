@@ -2,8 +2,9 @@
   margin: 0;
   padding: 0;
 }
-body {
-  background: rgba(245, 248, 255, 0.7);
+main {
+  background: rgba(245, 248, 255, 1);
+  padding-bottom: 70px;
 }
 .Raleway-font {
   font-family: "Raleway", sans-serif;
